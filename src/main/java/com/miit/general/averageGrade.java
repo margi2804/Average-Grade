@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class averageGrade {
 
 	public static void main(String[] args) {
-		int marks[] = new int[6];
+		int marks[] = new int[7];
 		int i;
 		float total = 0, avg;
 		Scanner sc = new Scanner(System.in);
 		
-		for(i=0; i<6 ; i++) {
+		for(i=0; i<7 ; i++) {
 			System.out.println("Enter Marks of Subject " +(i+1)+" :");
 			marks[i] = sc.nextInt();
 			total = total + marks[i];
